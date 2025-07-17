@@ -712,7 +712,7 @@ function PurchasesPage({ user }) {
                       alert('Code copied to clipboard!');
                     }}
                   >
-                    📋 Copy Code
+                    Copy GrowID/Gmail
                   </button>
                 </div>
               );
@@ -999,13 +999,7 @@ function AdminPage({ products, addProduct, deleteProduct, updateProductStock, us
               onChange={(e) => setSelectedUserId(e.target.value)}
               className="admin-input"
             >
-              <option value="">Select User by UID</option>
-              {users.map(user => (
-                <option key={user.id} value={user.id}>
-                  UID: {user.id} - {user.email} (Balance: ${(user.balance || 0).toFixed(2)})
-                </option>
-              ))}
-            </select>
+      
             <input
               type="text"
               placeholder="Or enter UID directly"
