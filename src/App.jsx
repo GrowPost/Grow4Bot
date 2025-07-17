@@ -994,15 +994,7 @@ function AdminPage({ products, addProduct, deleteProduct, updateProductStock, us
         <div className="user-balance-section">
           <h3>Add Balance to User</h3>
           <div className="user-balance-form">
-  
-      
-            <input
-              type="text"
-              placeholder="Or enter UID directly"
-              value={selectedUserId}
-              onChange={(e) => setSelectedUserId(e.target.value)}
-              className="admin-input"
-            />
+   
             <input
               type="number"
               placeholder="Amount to add"
