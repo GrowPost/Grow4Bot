@@ -251,7 +251,7 @@ export default function App() {
             </button>
           </div>
           <p style={{marginTop: '20px', color: '#A0A0A0', fontSize: '14px'}}>
-            Admin login: admin@gamestore.com / password: admin123
+            Demo Test
           </p>
         </div>
       </div>
@@ -321,7 +321,7 @@ export default function App() {
             className={`nav-btn ${page === "purchases" ? "active" : ""}`}
             onClick={() => setPage("purchases")}
           >
-            <img src="/icons8-purchase-60.png" alt="Purchases" style={{width: '24px', height: '24px'}} />
+            <img src="/icons8-purchase-60 2.png" alt="Purchases" style={{width: '24px', height: '24px'}} />
           </button>
           {isAdmin && (
             <button 
