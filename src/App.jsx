@@ -994,7 +994,7 @@ function AdminPage({ products, addProduct, deleteProduct, updateProductStock, us
         <div className="user-balance-section">
           <h3>Add Balance to User</h3>
           <div className="user-balance-form">
-   
+         />
             <input
               type="number"
               placeholder="Amount to add"
